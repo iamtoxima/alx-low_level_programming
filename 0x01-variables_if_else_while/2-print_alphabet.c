@@ -5,7 +5,6 @@
  * the letters of the alphabet in lowercase.
  * Return: 0
  */
-
 int main(void)
 {
 	char c = 'a';
@@ -14,6 +13,7 @@ int main(void)
 	{
 		putchar(c);
 		c++;
+		
 	}
 	putchar('\n');
 	return (0);

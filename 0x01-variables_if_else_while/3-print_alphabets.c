@@ -18,9 +18,11 @@ int main(void)
 
 	while (C <= 'Z')
 	{
+	  
 		putchar(C);
 		C++;
 	}
+	
 	putchar('\n');
 	return (0);
 }
