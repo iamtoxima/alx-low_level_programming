@@ -1,4 +1,6 @@
 include <stdio.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - main block
  * Description: Use `putchar` function to print
