@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * main - This function prints characters using the _putchar function
 *
 * Return: Always 0 (Success)
