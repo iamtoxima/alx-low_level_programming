@@ -1,5 +1,8 @@
-#include "main.h"
+nclude "main.h"
 
+/**
+ * print_alphabet_x10 - Prints the alphabet in lowercase ten times
+ */
 void print_alphabet_x10(void)
 {
     int i;
