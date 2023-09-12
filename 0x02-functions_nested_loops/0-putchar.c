@@ -1,8 +1,6 @@
 #include "main.h"
 /*
-*main - Entry point of the program
-*
-*This function prints characters using the _putchar function.
+* main - This function prints characters using the _putchar function
 *
 * Return: Always 0 (Success)
 */
