@@ -1,4 +1,4 @@
-#include <stdio.h>
+nclude <stdio.h>
 
 /**
 * main - Entry point
@@ -7,7 +7,6 @@
 */
 int main(void)
 {
-int i;
 long int fib1 = 1, fib2 = 2, next_fib, sum = 0;
 
 while (fib2 <= 4000000)
