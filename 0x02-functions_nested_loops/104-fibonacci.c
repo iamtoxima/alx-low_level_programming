@@ -7,23 +7,23 @@
  */
 int main(void)
 {
-    unsigned long i, a = 1, b = 2, next;
+unsigned long i, a = 1, b = 2, next;
 
-    printf("1, 2, ");
+printf("1, 2, ");
 
-    for (i = 3; i <= 98; ++i)
-    {
-        next = a + b;
-        printf("%lu", next);
+for (i = 3; i <= 98; ++i)
+{
+next = a + b;
+printf("%lu", next);
 
-        if (i != 98)
-            printf(", ");
+if (i != 98)
+printf(", ");
 
-        a = b;
-        b = next;
-    }
+a = b;
+b = next;
+}
 
-    printf("\n");
+printf("\n");
 
-    return 0;
+    return (0);
 }
