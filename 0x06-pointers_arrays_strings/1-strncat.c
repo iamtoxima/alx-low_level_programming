@@ -1,23 +1,23 @@
+#include "main.h"
+
+/**
+* _strncat - concatenates two strings.
+* @dest: destination parameter
+* @src: source parameter
+* @n: number of bytes
+* Return: char *
+*/
+
 char *_strncat(char *dest, char *src, int n)
 {
-int dest_len = 0;
-int i = 0;
+int dest_len = 0, i;
 
-/* Find the length of dest */
 while (dest[dest_len] != '\0')
-{
 dest_len++;
-}
 
-/* Append src to dest, up to n bytes or until null terminator is encountered in src */
-while (src[i] != '\0' && i < n)
-{
+for (i = 0 ; i < n && src[i] != '\0' ; i++)
 dest[dest_len + i] = src[i];
-i++;
-}
-
-/* Add null terminator */
 dest[dest_len + i] = '\0';
 
-return dest;
+return (dest);
 }
