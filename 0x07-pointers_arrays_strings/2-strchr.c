@@ -1,12 +1,18 @@
 #include "main.h"
-
 /**
-* set_string - sets the value of a pointer to a char
-* @s: pointer to pointer
-* @to: pointer char
+* _strchr - Entry point
+* @s: input
+* @c: input
+* Return: Always 0 (Success)
 */
-
-void set_string(char **s, char *to)
+char *_strchr(char *s, char c)
 {
-*s = to;
+int i = 0;
+
+for (; s[i] >= '\0'; i++)
+{
+if (s[i] == c)
+return (&s[i]);
+}
+return (0);
 }
